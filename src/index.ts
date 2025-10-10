@@ -6,7 +6,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: "https://dilsaycareassignment.netlify.app/",  // your frontend URL
+    origin: "https://dilsaycareassignment.netlify.app",  // your frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 })
